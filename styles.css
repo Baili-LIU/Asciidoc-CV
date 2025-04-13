@@ -1,0 +1,115 @@
+/* Reset some default margins */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container holds sidebar + main-content */
+  #content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+  /* Sidebar (left column) */
+  #content>.sidebar {
+    flex: 3;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  /* Main content (right column) */
+  #content>.main-content {
+    flex: 7;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    color: #222;
+  }
+  
+  h1 {
+    font-size: 2em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.3em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #005b96;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    color: #006494;
+  }
+  
+  /* Italics for roles */
+  em {
+    color: #444;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  /* Lists */
+  ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Stars (for skills) */
+  li::marker {
+    color: #0077cc;
+  }
+  
+  /* Contact info */
+  .sidebar p {
+    margin: 0.3em 0;
+  }
+  
+  /* Interests & Languages */
+  .sidebar ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+  }
+  
+  .sidebar h3 {
+    margin-top: 1em;
+    color: #444;
+  }
+  
+  /* Make sure tables (if any) look good */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+  }
+  
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  

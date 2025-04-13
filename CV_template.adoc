@@ -1,15 +1,15 @@
+:stylesheet: styles.css
+:nofooter:
+
 = Baili LIU
 FPGA Engineer in the Financial Sector at NOVASPARKS
 Graduated from Polytech Nantes in 2022
 
-== Contact Information
-xxx xxx xxx, xxxx Cachan, France  
-Phone: (+xx) xxxxxxxxxx
-Email: scutliubaili@gmail.com  
+[.main-content]
+== !
+=== Professional Experience
 
-== Professional Experience
-
-=== NovaSparks, Paris
+==== NovaSparks, Paris
 *FPGA Engineer | July 2024 - Present*
 
 - Development of Feed-handlers for financial market data processing
@@ -19,7 +19,7 @@ Email: scutliubaili@gmail.com
 - Developing reference models in C++ for RTL module verification
 - Synthesis, P&R, and on-board verification on an automated platform
 
-=== Forvia (Faurecia Clarion Electronics), Paris
+==== Forvia (Faurecia Clarion Electronics), Paris
 *ASIC RTL Engineer, Outsourced through Elsys Design | February 2023 - July 2024*
 
 - Migrating algorithms from C++ to synthesizable RTL modules in SystemVerilog
@@ -27,34 +27,39 @@ Email: scutliubaili@gmail.com
 - Formal verification using JasperGold
 - Adjusting constraints according to synthesis results
 
-=== CentraleSupélec, Cesson-Sévigné
+==== CentraleSupélec, Cesson-Sévigné
 *Final Year Internship | March 2022 - September 2022*
 
 - RTL design and development in VHDL for the NGD circuit
 - Using Matlab for the optimization of digital filter
 - Implementing the digital NGD prototype on Zynq-7000 SoC
 
-=== Rcospi, Le Loroux-Bottereau
+==== Rcospi, Le Loroux-Bottereau
 *Internship | June 2021 - September 2021*
 
 - Programming in C language on Microchip microcontroller and ESP32
 - PCB design on Eagle PCB
 
-== Education
+=== Education
 
-=== Polytech Nantes, Nantes
+==== Polytech Nantes, Nantes
 *Engineering Degree | Graduated in 2022*  
 Specialization: Electronics and Digital Technologies
 
-=== South China University of Technology, Guangzhou
+==== South China University of Technology, Guangzhou
 *Bachelor's Degree, Automation | Graduated in 2020*
 
-=== University of Technology Sydney, Sydney
+==== University of Technology Sydney, Sydney
 *Summer Campus, Data Science topic | July 2017 - August 2017*
 
-== Technical Skills
-
-=== HDL and Programming Languages
+[.sidebar]
+== !
+=== Contact Information
+xxx xxx xxx, xxxx Cachan, France  
+Phone: (+xx) xxxxxxxxxx  
+Email: scutliubaili@gmail.com  
+=== Technical Skills
+==== HDL and Programming Languages
 - VHDL: ★★★★★
 - SystemVerilog: ★★★★★
 - C++/C: ★★★★☆
@@ -62,29 +67,27 @@ Specialization: Electronics and Digital Technologies
 - Python: ★★★☆☆
 - TCL: ★★☆☆☆
 
-=== Verification & Simulation
+==== Verification & Simulation
 Xcelium, Verdi, Modelsim, JasperGold
 
-=== Tools & Platforms
+==== Tools & Platforms
 Xilinx Vivado, Cadence Genus, Libero
 
-=== Microcontrollers
+==== Microcontrollers
 Microchip Studio, ESP32
 
-=== Protocols & Communication Buses
+==== Protocols & Communication Buses
 Ethernet, I2C, SPI, UART, AMBA, AVALON
 
-=== Version Control Tools
+==== Version Control Tools
 Git, SVN
 
-=== Others
+==== Others
 Matlab, Makefile, Script shell, Confluence, Jira
-
-== Languages
+=== Languages
 - *English*: Complete professional proficiency
 - *French*: Complete professional proficiency
 - *Chinese*: Native language
-
-== Interests
+=== Interests
 - Badminton
 - Go (Weiqi)

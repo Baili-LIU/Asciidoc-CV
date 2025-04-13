@@ -1,14 +1,28 @@
-# Makefile to generate PDF from AsciiDoc
+# Variables
+INPUT_FILE = CV_template.adoc
+OUTPUT_DIR = output
+HTML_OUTPUT = $(OUTPUT_DIR)/CV.html
+PDF_OUTPUT = $(OUTPUT_DIR)/CV.pdf
 
-ASCIIDOC_FILE = CV_template.adoc
-PDF_FILE = CV_template.pdf
+# Ensure output directory exists
+$(OUTPUT_DIR):
+	mkdir -p $(OUTPUT_DIR)
 
-all: $(PDF_FILE)
+# Generate HTML
+html: $(HTML_OUTPUT)
 
-$(PDF_FILE): $(ASCIIDOC_FILE)
-	asciidoctor-pdf $(ASCIIDOC_FILE) -o $(PDF_FILE)
+$(HTML_OUTPUT): $(INPUT_FILE) | $(OUTPUT_DIR)
+	asciidoctor -o $@ $<
 
+# Generate PDF
+pdf: $(PDF_OUTPUT)
+
+$(PDF_OUTPUT): $(HTML_OUTPUT) | $(OUTPUT_DIR)
+	wkhtmltopdf $< $@
+
+# Default target
+all: html pdf
+
+# Clean output
 clean:
-	rm -f $(PDF_FILE)
-
-.PHONY: all clean
+	rm -rf $(OUTPUT_DIR)
