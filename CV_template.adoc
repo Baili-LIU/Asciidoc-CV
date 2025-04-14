@@ -44,14 +44,14 @@ Graduated from Polytech Nantes in 2022
 === Education
 
 ==== Polytech Nantes, Nantes
-*Engineering Degree | Graduated in 2022*  
+Engineering Degree | Graduated in 2022 +
 Specialization: Electronics and Digital Technologies
 
 ==== South China University of Technology, Guangzhou
-*Bachelor's Degree, Automation | Graduated in 2020*
+Bachelor's Degree, Automation | Graduated in 2020
 
 ==== University of Technology Sydney, Sydney
-*Summer Campus, Data Science topic | July 2017 - August 2017*
+Summer Campus, Data Science topic | July 2017 - August 2017
 
 [.sidebar]
 == !Invisible

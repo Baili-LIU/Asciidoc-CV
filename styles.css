@@ -1,149 +1,159 @@
-/* Reset some default margins */
+/* Reset default margins and styles for the body */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Roboto, sans-serif;
   background-color: #fafafa;
   color: #333;
-  line-height: 1.4; /* 调整行高以减少换行 */
+  line-height: 1.4; /* Adjust line height to reduce line breaks */
 }
 
-/* Container holds sidebar + main-content */
+/* Layout container for sidebar and main content */
 #content {
   display: flex;
   flex-direction: row;
-  gap: 20px; /* 减少列间距 */
-  max-width: 1000px; /* 限制宽度以适应 A4 纸 */
+  gap: 20px; /* Reduce spacing between columns */
+  max-width: 1000px; /* Limit width to fit A4 paper */
   margin: 0 auto;
-  padding: 20px; /* 减少内边距 */
+  padding: 20px; /* Reduce padding */
   box-sizing: border-box;
   justify-content: space-between;
 }
 
-/* Sidebar (left column) */
+/* Sidebar (left column) styles */
 #content>.sidebar {
   flex: 3;
   background-color: #f4f4f4;
-  padding: 15px; /* 减少内边距 */
+  padding: 15px; /* Reduce padding */
   border-right: 1px solid #ccc;
   box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.03);
-  font-size: 0.9em; /* 缩小字体 */
+  font-size: 0.9em; /* Reduce font size */
 }
 
-/* Main content (right column) */
+/* Main content (right column) styles */
 #content>.main-content {
   flex: 7;
-  padding: 15px; /* 减少内边距 */
-  font-size: 0.95em; /* 缩小字体 */
+  padding: 15px; /* Reduce padding */
+  font-size: 0.95em; /* Reduce font size */
 }
 
-/* Headings */
+/* General heading styles */
 h1, h3, h4 {
   margin-top: 1em;
   margin-bottom: 0.5em;
   color: #222;
 }
 
+/* Main title (h1) styles */
 h1 {
-  font-size: 1.8em; /* 缩小标题字体 */
-  border-bottom: 1px solid #ccc; /* 减少边框厚度 */
+  font-size: 1.8em; /* Reduce font size */
+  border-bottom: 1px solid #ccc; /* Reduce border thickness */
   padding-bottom: 0.2em;
 }
 
+/* Hide unnecessary h2 headings */
 h2 {
-  display: none; /* 隐藏不必要的 h2 标题 */
+  display: none;
 }
 
+/* General h3 heading styles */
 h3 {
-  font-size: 1.1em; /* 缩小 h3 标题字体 */
+  font-size: 1.1em; /* Reduce h3 font size */
   color: #006494;
 }
 
+/* Highlighted title styles for specific h3 headings */
 .highlight-title h3 {
-  font-size: 4em; /* Make the font size larger */
-  color: #000; /* Set the font color to black */
-  font-weight: bold; /* Optional: Make the text bold */
-  text-align: left; /* Optional: Center the text */
+  font-size: 4em; /* Increase font size */
+  color: #000; /* Set font color to black */
+  font-weight: bold; /* Make text bold */
+  text-align: left; /* Align text to the left */
   margin-bottom: 0.5em; /* Adjust spacing below the title */
 }
 
 /* Hide table headers */
 table th {
-  display: none; /* 隐藏表头 */
+  display: none; /* Hide table headers */
 }
 
 /* Remove table borders */
 table {
   border-collapse: collapse;
-  border: none; /* 移除表格边框 */
+  border: none; /* Remove table borders */
 }
 
+/* Remove cell borders and adjust padding */
 table td {
-  border: none; /* 移除单元格边框 */
-  padding: 5px; /* 调整单元格内边距 */
+  border: none; /* Remove cell borders */
+  padding: 5px; /* Adjust cell padding */
 }
 
-/* Optional: Align text in the table */
+/* Align the first column of the table to the left */
 table td:first-child {
-  text-align: left; /* 左对齐语言名称 */
+  text-align: left; /* Align language names to the left */
 }
 
+/* Align the last column of the table to the right */
 table td:last-child {
-  text-align: right; /* 右对齐星级 */
+  text-align: right; /* Align proficiency stars to the right */
 }
 
-/* Italics for roles */
+/* Emphasize roles with bold text */
 em {
   color: #444;
   font-style: normal;
   font-weight: bold;
 }
 
-/* Lists */
+/* List styles */
 ul {
-  padding-left: 1.2em; /* 减少列表缩进 */
+  padding-left: 1.2em; /* Reduce list indentation */
   margin-top: 0.3em;
   margin-bottom: 0.8em;
 }
 
+/* List item styles */
 li {
-  margin-bottom: 0.3em; /* 减少列表项之间的间距 */
+  margin-bottom: 0.3em; /* Reduce spacing between list items */
 }
 
-/* Stars (for skills) */
+/* Customize list markers (e.g., stars for skills) */
 li::marker {
   color: #0077cc;
 }
 
-/* Contact info */
+/* Contact information styles in the sidebar */
 .sidebar p {
-  margin: 0.2em 0; /* 减少段落间距 */
+  margin: 0.2em 0; /* Reduce paragraph spacing */
 }
 
-/* Interests & Languages */
+/* Sidebar list styles for interests and languages */
 .sidebar ul {
   list-style-type: disc;
-  padding-left: 1.2em; /* 减少缩进 */
+  padding-left: 1.2em; /* Reduce indentation */
 }
 
+/* Sidebar h3 heading styles */
 .sidebar h3 {
-  margin-top: 0.8em; /* 减少标题间距 */
+  margin-top: 0.8em; /* Reduce spacing above headings */
   color: #444;
 }
 
-/* Make sure tables (if any) look good */
+/* General table styles */
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0.8em 0; /* 减少表格外边距 */
-  font-size: 0.9em; /* 缩小表格字体 */
+  margin: 0.8em 0; /* Reduce table margin */
+  font-size: 0.9em; /* Reduce table font size */
 }
 
+/* Table cell and header styles */
 td, th {
   border: 1px solid #ccc;
-  padding: 6px; /* 减少单元格内边距 */
+  padding: 6px; /* Adjust cell padding */
 }
 
+/* Table header background color */
 th {
   background-color: #f0f0f0;
 }
@@ -153,35 +163,35 @@ th {
   body {
       background-color: #fff;
       color: #000;
-      line-height: 1.2; /* 进一步减少行高 */
+      line-height: 1.2; /* Further reduce line height */
   }
 
   #content {
-      max-width: 100%; /* 使用全宽 */
-      padding: 10px; /* 减少内边距 */
+      max-width: 100%; /* Use full width */
+      padding: 10px; /* Reduce padding */
   }
 
   .sidebar {
-      font-size: 0.85em; /* 缩小侧边栏字体 */
+      font-size: 0.85em; /* Reduce sidebar font size */
   }
 
   .main-content {
-      font-size: 0.9em; /* 缩小主内容字体 */
+      font-size: 0.9em; /* Reduce main content font size */
   }
 
   h1 {
-      font-size: 1.6em; /* 缩小标题字体 */
+      font-size: 1.6em; /* Reduce title font size */
   }
 
   h3 {
-      font-size: 1em; /* 缩小 h3 标题字体 */
+      font-size: 1em; /* Reduce h3 font size */
   }
 
   ul {
-      padding-left: 1em; /* 减少列表缩进 */
+      padding-left: 1em; /* Reduce list indentation */
   }
 
   li {
-      margin-bottom: 0.2em; /* 减少列表项间距 */
+      margin-bottom: 0.2em; /* Reduce spacing between list items */
   }
 }
