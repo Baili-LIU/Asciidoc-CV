@@ -49,15 +49,14 @@ body {
   }
   
   h2 {
-    font-size: 1.5em;
-    color: #005b96;
+    display: none;
   }
   
   h3 {
     font-size: 1.2em;
     color: #006494;
   }
-  
+
   /* Italics for roles */
   em {
     color: #444;

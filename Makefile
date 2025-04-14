@@ -21,7 +21,7 @@ $(PDF_OUTPUT): $(HTML_OUTPUT) | $(OUTPUT_DIR)
 	wkhtmltopdf $< $@
 
 # Default target
-all: html pdf
+all: clean html pdf
 
 # Clean output
 clean:

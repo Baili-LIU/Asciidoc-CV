@@ -1,12 +1,13 @@
 :stylesheet: styles.css
 :nofooter:
 
-= Baili LIU
+[.main-content]
+== !Invisible
+[.highlight-title]
+=== Baili LIU
 FPGA Engineer in the Financial Sector at NOVASPARKS
 Graduated from Polytech Nantes in 2022
 
-[.main-content]
-== !
 === Professional Experience
 
 ==== NovaSparks, Paris
@@ -53,7 +54,7 @@ Specialization: Electronics and Digital Technologies
 *Summer Campus, Data Science topic | July 2017 - August 2017*
 
 [.sidebar]
-== !
+== !Invisible
 === Contact Information
 xxx xxx xxx, xxxx Cachan, France  
 Phone: (+xx) xxxxxxxxxx  
