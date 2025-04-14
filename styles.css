@@ -1,114 +1,187 @@
 /* Reset some default margins */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Roboto, sans-serif;
-    background-color: #fafafa;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  /* Container holds sidebar + main-content */
-  #content {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    justify-content: space-between;
-  }
-  
-  /* Sidebar (left column) */
-  #content>.sidebar {
-    flex: 3;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-right: 1px solid #ccc;
-    box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.03);
-  }
-  
-  /* Main content (right column) */
-  #content>.main-content {
-    flex: 7;
-    padding: 20px;
-  }
-  
-  /* Headings */
-  h1, h2, h3, h4 {
-    margin-top: 1.2em;
-    margin-bottom: 0.5em;
-    color: #222;
-  }
-  
-  h1 {
-    font-size: 2em;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.3em;
-  }
-  
-  h2 {
-    display: none;
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    color: #006494;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.4; /* 调整行高以减少换行 */
+}
+
+/* Container holds sidebar + main-content */
+#content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* 减少列间距 */
+  max-width: 1000px; /* 限制宽度以适应 A4 纸 */
+  margin: 0 auto;
+  padding: 20px; /* 减少内边距 */
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+/* Sidebar (left column) */
+#content>.sidebar {
+  flex: 3;
+  background-color: #f4f4f4;
+  padding: 15px; /* 减少内边距 */
+  border-right: 1px solid #ccc;
+  box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.03);
+  font-size: 0.9em; /* 缩小字体 */
+}
+
+/* Main content (right column) */
+#content>.main-content {
+  flex: 7;
+  padding: 15px; /* 减少内边距 */
+  font-size: 0.95em; /* 缩小字体 */
+}
+
+/* Headings */
+h1, h3, h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+h1 {
+  font-size: 1.8em; /* 缩小标题字体 */
+  border-bottom: 1px solid #ccc; /* 减少边框厚度 */
+  padding-bottom: 0.2em;
+}
+
+h2 {
+  display: none; /* 隐藏不必要的 h2 标题 */
+}
+
+h3 {
+  font-size: 1.1em; /* 缩小 h3 标题字体 */
+  color: #006494;
+}
+
+.highlight-title h3 {
+  font-size: 4em; /* Make the font size larger */
+  color: #000; /* Set the font color to black */
+  font-weight: bold; /* Optional: Make the text bold */
+  text-align: left; /* Optional: Center the text */
+  margin-bottom: 0.5em; /* Adjust spacing below the title */
+}
+
+/* Hide table headers */
+table th {
+  display: none; /* 隐藏表头 */
+}
+
+/* Remove table borders */
+table {
+  border-collapse: collapse;
+  border: none; /* 移除表格边框 */
+}
+
+table td {
+  border: none; /* 移除单元格边框 */
+  padding: 5px; /* 调整单元格内边距 */
+}
+
+/* Optional: Align text in the table */
+table td:first-child {
+  text-align: left; /* 左对齐语言名称 */
+}
+
+table td:last-child {
+  text-align: right; /* 右对齐星级 */
+}
+
+/* Italics for roles */
+em {
+  color: #444;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2em; /* 减少列表缩进 */
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+li {
+  margin-bottom: 0.3em; /* 减少列表项之间的间距 */
+}
+
+/* Stars (for skills) */
+li::marker {
+  color: #0077cc;
+}
+
+/* Contact info */
+.sidebar p {
+  margin: 0.2em 0; /* 减少段落间距 */
+}
+
+/* Interests & Languages */
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 1.2em; /* 减少缩进 */
+}
+
+.sidebar h3 {
+  margin-top: 0.8em; /* 减少标题间距 */
+  color: #444;
+}
+
+/* Make sure tables (if any) look good */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0; /* 减少表格外边距 */
+  font-size: 0.9em; /* 缩小表格字体 */
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 6px; /* 减少单元格内边距 */
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Print-specific styles */
+@media print {
+  body {
+      background-color: #fff;
+      color: #000;
+      line-height: 1.2; /* 进一步减少行高 */
   }
 
-  /* Italics for roles */
-  em {
-    color: #444;
-    font-style: normal;
-    font-weight: bold;
+  #content {
+      max-width: 100%; /* 使用全宽 */
+      padding: 10px; /* 减少内边距 */
   }
-  
-  /* Lists */
+
+  .sidebar {
+      font-size: 0.85em; /* 缩小侧边栏字体 */
+  }
+
+  .main-content {
+      font-size: 0.9em; /* 缩小主内容字体 */
+  }
+
+  h1 {
+      font-size: 1.6em; /* 缩小标题字体 */
+  }
+
+  h3 {
+      font-size: 1em; /* 缩小 h3 标题字体 */
+  }
+
   ul {
-    padding-left: 1.5em;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+      padding-left: 1em; /* 减少列表缩进 */
   }
-  
+
   li {
-    margin-bottom: 0.5em;
+      margin-bottom: 0.2em; /* 减少列表项间距 */
   }
-  
-  /* Stars (for skills) */
-  li::marker {
-    color: #0077cc;
-  }
-  
-  /* Contact info */
-  .sidebar p {
-    margin: 0.3em 0;
-  }
-  
-  /* Interests & Languages */
-  .sidebar ul {
-    list-style-type: disc;
-    padding-left: 1.5em;
-  }
-  
-  .sidebar h3 {
-    margin-top: 1em;
-    color: #444;
-  }
-  
-  /* Make sure tables (if any) look good */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1em 0;
-  }
-  
-  td, th {
-    border: 1px solid #ccc;
-    padding: 8px;
-  }
-  
-  th {
-    background-color: #f0f0f0;
-  }
-  
+}

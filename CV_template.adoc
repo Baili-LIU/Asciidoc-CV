@@ -5,7 +5,7 @@
 == !Invisible
 [.highlight-title]
 === Baili LIU
-FPGA Engineer in the Financial Sector at NOVASPARKS
+FPGA Engineer in the Financial Sector at NOVASPARKS +
 Graduated from Polytech Nantes in 2022
 
 === Professional Experience
@@ -56,17 +56,35 @@ Specialization: Electronics and Digital Technologies
 [.sidebar]
 == !Invisible
 === Contact Information
-xxx xxx xxx, xxxx Cachan, France  
-Phone: (+xx) xxxxxxxxxx  
+47 rue Marcel Bonnet + 
+94230 Cachan, France +
+Phone: (+xx) xxxxxxxxxx +
 Email: scutliubaili@gmail.com  
+
 === Technical Skills
 ==== HDL and Programming Languages
-- VHDL: ★★★★★
-- SystemVerilog: ★★★★★
-- C++/C: ★★★★☆
-- Verilog: ★★★★☆
-- Python: ★★★☆☆
-- TCL: ★★☆☆☆
+[cols="1,1", options="header"]
+|===
+| Language | Proficiency
+
+| VHDL
+| ★★★★★
+
+| SystemVerilog
+| ★★★★★
+
+| C++/C
+| ★★★★☆
+
+| Verilog
+| ★★★★☆
+
+| Python
+| ★★★☆☆
+
+| TCL
+| ★★☆☆☆
+|===
 
 ==== Verification & Simulation
 Xcelium, Verdi, Modelsim, JasperGold
@@ -85,10 +103,12 @@ Git, SVN
 
 ==== Others
 Matlab, Makefile, Script shell, Confluence, Jira
+
 === Languages
 - *English*: Complete professional proficiency
 - *French*: Complete professional proficiency
 - *Chinese*: Native language
+
 === Interests
 - Badminton
 - Go (Weiqi)
