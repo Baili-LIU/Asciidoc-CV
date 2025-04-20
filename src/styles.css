@@ -3,9 +3,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Roboto, sans-serif;
-  background-color: #fafafa;
+  background-color: #fff; /* Set background color to white */
   color: #333;
-  line-height: 1.4; /* Adjust line height to reduce line breaks */
+  line-height: 1.2; /* Adjust line height to reduce line breaks */
 }
 
 /* Layout container for sidebar and main content */
@@ -23,18 +23,16 @@ body {
 /* Sidebar (left column) styles */
 #content>.sidebar {
   flex: 3;
-  background-color: #f4f4f4;
+  background-color: #fff;
   padding: 15px; /* Reduce padding */
-  border-right: 1px solid #ccc;
-  box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.03);
-  font-size: 0.9em; /* Reduce font size */
+  font-size: 1em; /* Reduce font size */
 }
 
 /* Main content (right column) styles */
 #content>.main-content {
   flex: 7;
   padding: 15px; /* Reduce padding */
-  font-size: 0.95em; /* Reduce font size */
+  font-size: 1em; /* Reduce font size */
 }
 
 /* General heading styles */
@@ -58,8 +56,15 @@ h2 {
 
 /* General h3 heading styles */
 h3 {
-  font-size: 1.1em; /* Reduce h3 font size */
+  font-size: 1.4em; /* Slightly larger for section titles */
   color: #006494;
+  margin-top: 0; /* 去掉顶部外边距 */
+}
+
+h4 {
+  font-size: 1.2em; /* Slightly smaller for subsection titles */
+  color: #555; /* Lighter color for differentiation */
+  margin-bottom: 0.3em;
 }
 
 /* Highlighted title styles for specific h3 headings */
@@ -68,7 +73,8 @@ h3 {
   color: #000; /* Set font color to black */
   font-weight: bold; /* Make text bold */
   text-align: left; /* Align text to the left */
-  margin-bottom: 0.5em; /* Adjust spacing below the title */
+  margin-bottom: 0.5rem; /* Adjust spacing below the title */
+  margin-top: 0; /* 去掉顶部外边距 */
 }
 
 /* Hide table headers */
@@ -80,6 +86,7 @@ table th {
 table {
   border-collapse: collapse;
   border: none; /* Remove table borders */
+  font-size: 1em ;
 }
 
 /* Remove cell borders and adjust padding */
@@ -95,7 +102,7 @@ table td:first-child {
 
 /* Align the last column of the table to the right */
 table td:last-child {
-  text-align: right; /* Align proficiency stars to the right */
+  text-align: middle; /* Align proficiency stars to the right */
 }
 
 /* Emphasize roles with bold text */
@@ -107,14 +114,14 @@ em {
 
 /* List styles */
 ul {
-  padding-left: 1.2em; /* Reduce list indentation */
+  padding-left: 1em; /* Reduce list indentation */
   margin-top: 0.3em;
   margin-bottom: 0.8em;
 }
 
 /* List item styles */
 li {
-  margin-bottom: 0.3em; /* Reduce spacing between list items */
+  margin-bottom: 0.2em; /* Reduce spacing between list items */
 }
 
 /* Customize list markers (e.g., stars for skills) */
@@ -131,12 +138,6 @@ li::marker {
 .sidebar ul {
   list-style-type: disc;
   padding-left: 1.2em; /* Reduce indentation */
-}
-
-/* Sidebar h3 heading styles */
-.sidebar h3 {
-  margin-top: 0.8em; /* Reduce spacing above headings */
-  color: #444;
 }
 
 /* General table styles */
@@ -158,40 +159,13 @@ th {
   background-color: #f0f0f0;
 }
 
-/* Print-specific styles */
-@media print {
-  body {
-      background-color: #fff;
-      color: #000;
-      line-height: 1.2; /* Further reduce line height */
-  }
+/* Remove default link styles */
+a {
+  color: inherit; /* 保留父元素的字体颜色 */
+  text-decoration: none; /* 去掉下划线 */
+}
 
-  #content {
-      max-width: 100%; /* Use full width */
-      padding: 10px; /* Reduce padding */
-  }
-
-  .sidebar {
-      font-size: 0.85em; /* Reduce sidebar font size */
-  }
-
-  .main-content {
-      font-size: 0.9em; /* Reduce main content font size */
-  }
-
-  h1 {
-      font-size: 1.6em; /* Reduce title font size */
-  }
-
-  h3 {
-      font-size: 1em; /* Reduce h3 font size */
-  }
-
-  ul {
-      padding-left: 1em; /* Reduce list indentation */
-  }
-
-  li {
-      margin-bottom: 0.2em; /* Reduce spacing between list items */
-  }
+/* Optional: Add hover effect if needed */
+a:hover {
+  text-decoration: underline; /* 鼠标悬停时显示下划线（可选） */
 }

@@ -59,10 +59,10 @@ This project contains an AsciiDoc template for creating a CV and a Makefile to g
    ```
 ## Customize your CV
 
-1. **Modify the content in `CV_template.adoc`**  
+1. **Modify the content in `src/CV_template.adoc`**  
    - Replace the placeholder content in `CV_template.adoc` with your own profile, including your personal information, skills, and experience.
 
-2. **Customize the layout in `styles.css`**  
+2. **Customize the layout in `src/styles.css`**  
    - Adjust the layout, fonts, colors, and other styles of the CV by modifying the `styles.css` file to suit your preferences.
 
 ## Output

@@ -1,6 +1,7 @@
 # Variables
-INPUT_FILE = CV_template.adoc
+SRC_DIR = src
 OUTPUT_DIR = output
+INPUT_FILE = $(SRC_DIR)/CV_template.adoc
 HTML_OUTPUT = $(OUTPUT_DIR)/CV.html
 PDF_OUTPUT = $(OUTPUT_DIR)/CV.pdf
 
@@ -18,7 +19,7 @@ $(HTML_OUTPUT): $(INPUT_FILE) | $(OUTPUT_DIR)
 pdf: $(PDF_OUTPUT)
 
 $(PDF_OUTPUT): $(HTML_OUTPUT) | $(OUTPUT_DIR)
-	wkhtmltopdf $< $@
+	wkhtmltopdf --enable-local-file-access $< $@
 
 # Default target
 all: clean html pdf

@@ -4,13 +4,12 @@
 [.main-content]
 == !Invisible
 [.highlight-title]
-=== Baili LIU
+=== link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[Baili LIU]
 FPGA Engineer in the Financial Sector at NOVASPARKS +
 Graduated from Polytech Nantes in 2022
 
-=== Professional Experience
-
-==== NovaSparks, Paris
+=== PROFESSIONAL EXPERIENCE
+==== link:https://www.novasparks.com[NovaSparks], Paris
 *FPGA Engineer | July 2024 - Present*
 
 - Development of Feed-handlers for financial market data processing
@@ -20,48 +19,51 @@ Graduated from Polytech Nantes in 2022
 - Developing reference models in C++ for RTL module verification
 - Synthesis, P&R, and on-board verification on an automated platform
 
-==== Forvia (Faurecia Clarion Electronics), Paris
-*ASIC RTL Engineer, Outsourced through Elsys Design | February 2023 - July 2024*
+==== link:https://www.forvia.com[Forvia (Faurecia Clarion Electronics)], Paris
+*ASIC RTL Engineer, Outsourced through link:https://www.elsys-design.com/en/[Elsys Design] | February 2023 - July 2024*
 
 - Migrating algorithms from C++ to synthesizable RTL modules in SystemVerilog
 - Functional verification and unit test development using Verilator
 - Formal verification using JasperGold
 - Adjusting constraints according to synthesis results
 
-==== CentraleSupélec, Cesson-Sévigné
+==== link:https://www.centralesupelec.fr/en[CentraleSupélec], Cesson-Sévigné
 *Final Year Internship | March 2022 - September 2022*
 
 - RTL design and development in VHDL for the NGD circuit
 - Using Matlab for the optimization of digital filter
 - Implementing the digital NGD prototype on Zynq-7000 SoC
 
-==== Rcospi, Le Loroux-Bottereau
+==== link:https://rcospi.fr/[Rcospi], Le Loroux-Bottereau
 *Internship | June 2021 - September 2021*
 
 - Programming in C language on Microchip microcontroller and ESP32
 - PCB design on Eagle PCB
 
-=== Education
+=== EDUCATION
 
-==== Polytech Nantes, Nantes
+==== link:https://polytech.univ-nantes.fr/en[Polytech Nantes], Nantes
 Engineering Degree | Graduated in 2022 +
 Specialization: Electronics and Digital Technologies
 
-==== South China University of Technology, Guangzhou
+==== link:https://www.scut.edu.cn/en/[South China University of Technology], Guangzhou
 Bachelor's Degree, Automation | Graduated in 2020
 
-==== University of Technology Sydney, Sydney
+==== link:https://www.uts.edu.au/[University of Technology Sydney], Sydney
 Summer Campus, Data Science topic | July 2017 - August 2017
 
 [.sidebar]
 == !Invisible
-=== Contact Information
 47 rue Marcel Bonnet + 
 94230 Cachan, France +
-Phone: (+xx) xxxxxxxxxx +
-Email: scutliubaili@gmail.com  
++xx xxxxxxxxxx +
+scutliubaili@gmail.com +
+// link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[image:image/LI-Logo.png [LinkedIn, width=20, height=20]] +
+// link:https://github.com/your-username[image:image/GitHub_Logo.png [GitHub, width=20, height=20]] +
+link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[image:../image/LI-In-Bug.png[LinkedIn Logo, role="responsive-image",width=20%]]
+link:https://github.com/Baili-LIU[image:../image/github-mark.png[GitHub Logo, role="responsive-image",width=20%]] +
 
-=== Technical Skills
+=== TECHNICAL SKILLS
 ==== HDL and Programming Languages
 [cols="1,1", options="header"]
 |===
@@ -104,11 +106,11 @@ Git, SVN
 ==== Others
 Matlab, Makefile, Script shell, Confluence, Jira
 
-=== Languages
+=== LANGUAGES
 - *English*: Complete professional proficiency
 - *French*: Complete professional proficiency
 - *Chinese*: Native language
 
-=== Interests
+=== INTERESTS
 - Badminton
 - Go (Weiqi)
