@@ -9,8 +9,8 @@ FPGA Engineer in the Financial Sector at NOVASPARKS +
 Graduated from Polytech Nantes in 2022
 
 === PROFESSIONAL EXPERIENCE
-==== link:https://www.novasparks.com[NovaSparks], Paris
-*FPGA Engineer | July 2024 - Present*
+==== link:https://www.novasparks.com[*NovaSparks*], Paris
+FPGA Engineer | July 2024 - Present
 
 - Development of Feed-handlers for financial market data processing
 - Collaboration with the software team and tech lead to define specifications
@@ -19,37 +19,37 @@ Graduated from Polytech Nantes in 2022
 - Developing reference models in C++ for RTL module verification
 - Synthesis, P&R, and on-board verification on an automated platform
 
-==== link:https://www.forvia.com[Forvia (Faurecia Clarion Electronics)], Paris
-*ASIC RTL Engineer, Outsourced through link:https://www.elsys-design.com/en/[Elsys Design] | February 2023 - July 2024*
+==== link:https://www.forvia.com[*Forvia (Faurecia Clarion Electronics)*], Paris
+ASIC RTL Engineer, Outsourced via link:https://www.elsys-design.com/en/[*Elsys Design*] | February 2023 - July 2024
 
 - Migrating algorithms from C++ to synthesizable RTL modules in SystemVerilog
 - Functional verification and unit test development using Verilator
 - Formal verification using JasperGold
 - Adjusting constraints according to synthesis results
 
-==== link:https://www.centralesupelec.fr/en[CentraleSupélec], Cesson-Sévigné
-*Final Year Internship | March 2022 - September 2022*
+==== link:https://www.centralesupelec.fr/en[*CentraleSupélec*], Cesson-Sévigné
+Final Year Internship | March 2022 - September 2022
 
 - RTL design and development in VHDL for the NGD circuit
 - Using Matlab for the optimization of digital filter
 - Implementing the digital NGD prototype on Zynq-7000 SoC
 
-==== link:https://rcospi.fr/[Rcospi], Le Loroux-Bottereau
-*Internship | June 2021 - September 2021*
+==== link:https://rcospi.fr/[*Rcospi*], Le Loroux-Bottereau
+Internship | June 2021 - September 2021
 
 - Programming in C language on Microchip microcontroller and ESP32
 - PCB design on Eagle PCB
 
 === EDUCATION
 
-==== link:https://polytech.univ-nantes.fr/en[Polytech Nantes], Nantes
+==== link:https://polytech.univ-nantes.fr/en[*Polytech Nantes*], Nantes
 Engineering Degree | Graduated in 2022 +
 Specialization: Electronics and Digital Technologies
 
-==== link:https://www.scut.edu.cn/en/[South China University of Technology], Guangzhou
+==== link:https://www.scut.edu.cn/en/[*South China University of Technology*], Guangzhou
 Bachelor's Degree, Automation | Graduated in 2020
 
-==== link:https://www.uts.edu.au/[University of Technology Sydney], Sydney
+==== link:https://www.uts.edu.au/[*University of Technology Sydney*], Sydney
 Summer Campus, Data Science topic | July 2017 - August 2017
 
 [.sidebar]
@@ -106,6 +106,7 @@ Git, SVN
 ==== Others
 Matlab, Makefile, Script shell, Confluence, Jira
 
+[.language]
 === LANGUAGES
 - *English*: Complete professional proficiency
 - *French*: Complete professional proficiency

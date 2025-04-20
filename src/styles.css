@@ -63,8 +63,9 @@ h3 {
 
 h4 {
   font-size: 1.2em; /* Slightly smaller for subsection titles */
-  color: #555; /* Lighter color for differentiation */
+  color: #000; /* Set color to black */
   margin-bottom: 0.3em;
+  font-weight: normal; 
 }
 
 /* Highlighted title styles for specific h3 headings */
@@ -140,6 +141,10 @@ li::marker {
   padding-left: 1.2em; /* Reduce indentation */
 }
 
+.sidebar h4{
+  font-weight: bold;
+}
+
 /* General table styles */
 table {
   width: 100%;
@@ -168,4 +173,9 @@ a {
 /* Optional: Add hover effect if needed */
 a:hover {
   text-decoration: underline; /* 鼠标悬停时显示下划线（可选） */
+}
+
+.language h3{
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
