@@ -20,7 +20,7 @@ FPGA Engineer | July 2024 - Present
 - Synthesis, P&R, and on-board verification on an automated platform
 
 ==== link:https://www.forvia.com[*Forvia (Faurecia Clarion Electronics)*], Paris
-ASIC RTL Engineer, Outsourced via link:https://www.elsys-design.com/en/[*Elsys Design*] | February 2023 - July 2024
+ASIC RTL Engineer, Outsourced via link:https://www.elsys-design.com/en/[Elsys Design] | February 2023 - July 2024
 
 - Migrating algorithms from C++ to synthesizable RTL modules in SystemVerilog
 - Functional verification and unit test development using Verilator

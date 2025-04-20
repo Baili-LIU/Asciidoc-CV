@@ -1,0 +1,115 @@
+:stylesheet: styles.css
+:nofooter:
+
+[.main-content]
+== !Invisible
+[.highlight-title]
+=== link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[Baili LIU]
+Ingénieur FPGA dans le secteur financier chez NOVASPARKS +
+Diplômé de Polytech Nantes en 2022
+
+=== EXPÉRIENCE PROFESSIONNELLE
+==== link:https://www.novasparks.com[*NovaSparks*], Paris
+Ingénieur FPGA | Juillet 2024 - Présent
+
+- Développement de Feed-handlers pour le traitement des données de marché financier
+- Collaboration avec l'équipe logicielle et le responsable technique pour définir les spécifications
+- Décodage des données de marché Ethernet telles que CBOE Canada, Strike, CSE
+- Développement de nouvelles fonctionnalités sur plusieurs modules FPGA
+- Développement de modèles de référence en C++ pour la vérification des modules RTL
+- Synthèse, placement & routage, et vérification sur carte sur une plateforme automatisée
+
+==== link:https://www.forvia.com[*Forvia (Faurecia Clarion Electronics)*], Paris
+Ingénieur ASIC RTL, Détaché via link:https://www.elsys-design.com/en/[*Elsys Design*] | Février 2023 - Juillet 2024
+
+- Migration d'algorithmes de C++ vers des modules RTL synthétisables en SystemVerilog
+- Vérification fonctionnelle et développement de tests unitaires avec Verilator
+- Vérification formelle avec JasperGold
+- Ajustement des contraintes en fonction des résultats de synthèse
+
+==== link:https://www.centralesupelec.fr/en[*CentraleSupélec*], Cesson-Sévigné
+Stage de fin d'études | Mars 2022 - Septembre 2022
+
+- Conception et développement RTL en VHDL pour le circuit NGD
+- Utilisation de Matlab pour l'optimisation de filtres numériques
+- Implémentation du prototype numérique NGD sur Zynq-7000 SoC
+
+==== link:https://rcospi.fr/[*Rcospi*], Le Loroux-Bottereau
+Stage | Juin 2021 - Septembre 2021
+
+- Programmation en langage C sur microcontrôleur Microchip et ESP32
+- Conception de PCB avec Eagle PCB
+
+=== FORMATION
+
+==== link:https://polytech.univ-nantes.fr/en[*Polytech Nantes*], Nantes
+Diplôme d'ingénieur | Diplômé en 2022 +
+Spécialisation : Électronique et technologies numériques
+
+==== link:https://www.scut.edu.cn/en/[*South China University of Technology*], Guangzhou
+Licence, Automatisation | Diplômé en 2020
+
+==== link:https://www.uts.edu.au/[*University of Technology Sydney*], Sydney
+Campus d'été, Sujet : Science des données | Juillet 2017 - Août 2017
+
+[.sidebar]
+== !Invisible
+47 rue Marcel Bonnet + 
+94230 Cachan, France +
++xx xxxxxxxxxx +
+scutliubaili@gmail.com +
+link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[image:../image/LI-In-Bug.png[Logo LinkedIn, role="responsive-image",width=20%]]
+link:https://github.com/Baili-LIU[image:../image/github-mark.png[Logo GitHub, role="responsive-image",width=20%]] +
+
+=== COMPÉTENCES TECHNIQUES
+==== Langages HDL et de programmation
+[cols="1,1", options="header"]
+|===
+| Langage | Compétence
+
+| VHDL
+| ★★★★★
+
+| SystemVerilog
+| ★★★★★
+
+| C++/C
+| ★★★★☆
+
+| Verilog
+| ★★★★☆
+
+| Python
+| ★★★☆☆
+
+| TCL
+| ★★☆☆☆
+|===
+
+==== Vérification et simulation
+Xcelium, Verdi, Modelsim, JasperGold
+
+==== Outils et plateformes
+Xilinx Vivado, Cadence Genus, Libero
+
+==== Microcontrôleurs
+Microchip Studio, ESP32
+
+==== Protocoles et bus de communication
+Ethernet, I2C, SPI, UART, AMBA, AVALON
+
+==== Outils de gestion de version
+Git, SVN
+
+==== Autres
+Matlab, Makefile, Script shell, Confluence, Jira
+
+[.language]
+=== LANGUES
+- *Anglais* : Compétence professionnelle complète
+- *Français* : Compétence professionnelle complète
+- *Chinois* : Langue maternelle
+
+=== CENTRES D'INTÉRÊT
+- Badminton
+- Go (Weiqi)
