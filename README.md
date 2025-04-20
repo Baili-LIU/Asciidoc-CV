@@ -1,20 +1,18 @@
 # Asciidoc-CV
 
 This project is designed to generate a CV from an AsciiDoc file, converting it into HTML and then to PDF.
-`CV.adoc` → `CV.html` → `CV.pdf`
-
+```
+╔════════════╗        ┌────────────────────┐        ╔════════════╗        ┌────────────────────┐        ╔════════════╗
+║  CV.adoc   ║───────▶  asciidoctor tool   ├───────▶║  CV.html   ║───────▶  wkhtmltopdf tool   ├───────▶║  CV.pdf    ║
+╚════════════╝        └────────────────────┘        ╚════════════╝        └────────────────────┘        ╚════════════╝
+(AsciiDoc source)                                     (HTML file)                                        (Final PDF)
+```
 ## Examples
 
 You can view the generated CV examples below:
 
 - [English CV (PDF)](output/CV_en.pdf)
 - [French CV (PDF)](output/CV_fr.pdf)
-
-### English CV Preview
-<embed src="output/CV_en.pdf" type="application/pdf" width="100%" height="600px" />
-
-### French CV Preview
-<embed src="output/CV_fr.pdf" type="application/pdf" width="100%" height="600px" />
 
 ## Advantages
 - Compared to editing a CV in Microsoft Word or Google Docs, this approach allows seamless integration with version control tools like Git, eliminating the need to manage multiple versions of a CV in a folder.
