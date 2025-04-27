@@ -1,6 +1,6 @@
 # Asciidoc-CV
 
-This project is designed to generate a CV from an AsciiDoc file, converting it into HTML and then to PDF.
+This project is designed to generate my CV from an AsciiDoc file, converting it into HTML and then to PDF.
 ```
 ╔════════════╗        ┌────────────────────┐        ╔════════════╗        ┌────────────────────┐        ╔════════════╗
 ║  CV.adoc   ║───────▶  asciidoctor tool   ├───────▶║  CV.html   ║───────▶  wkhtmltopdf tool   ├───────▶║  CV.pdf    ║
@@ -9,7 +9,7 @@ This project is designed to generate a CV from an AsciiDoc file, converting it i
 ```
 ## Examples
 
-You can view the generated CV examples below:
+You can view the generated CV below:
 
 - [English CV (PDF)](output/CV_en.pdf)
 - [French CV (PDF)](output/CV_fr.pdf)
@@ -19,10 +19,12 @@ You can view the generated CV examples below:
 - Provides greater flexibility in layout customization (leveraging HTML and CSS skills) without being constrained by predefined templates.
 - Since the CV source file is a plain text file (`.adoc`), it is easier for AI tools to analyze, translate, or optimize the content.
 
-## Disadvantages
-- Requires basic knowledge of Asciidoctor, HTML, and CSS.
+## Limitations
+- Basic knowledge of Asciidoctor, HTML, and CSS is required to fully utilize this project.  
+This project is primarily intended for personal use but can also serve as a template for others with similar needs. As someone relatively new to front-end technologies, I acknowledge that there is room for improvement in the layout and design. With more experience, you can further enhance the CV layout or adapt it to your own preferences.
 
-This project is primarily intended for personal use. However, it can also serve as a template for others with similar needs.
+- Currently designed for Ubuntu systems only.  
+While it may work on other Linux-based systems, it has not been tested outside of Ubuntu.
 
 ## Prerequisites
 
