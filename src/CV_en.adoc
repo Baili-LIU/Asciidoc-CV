@@ -58,8 +58,6 @@ Summer Campus, Data Science topic | July 2017 - August 2017
 94230 Cachan, France +
 +xx xxxxxxxxxx +
 scutliubaili@gmail.com +
-// link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[image:image/LI-Logo.png [LinkedIn, width=20, height=20]] +
-// link:https://github.com/your-username[image:image/GitHub_Logo.png [GitHub, width=20, height=20]] +
 link:https://www.linkedin.com/in/baili-liu-ba6223209/?locale=en_US[image:../image/LI-In-Bug.png[LinkedIn Logo, role="responsive-image",width=20%]]
 link:https://github.com/Baili-LIU[image:../image/github-mark.png[GitHub Logo, role="responsive-image",width=20%]] +
 
